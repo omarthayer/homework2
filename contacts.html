@@ -1,13 +1,84 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <link rel="./assets.css.style" />
+    <title>Thayer Msimanga - Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="style.css" rel="stylesheet" type="text/css">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 </head>
+
 <body>
-    
+
+    <header id="masthead">
+        <div class="container">
+            <a href="index.html" id="logo">Thayer Msimanga</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contacts.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="row">
+        <div class="col-lg-6 col-md-8 col-sm-12">
+            <div class="col-lg-4">
+                <img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" class="rounded float-left img-fluid mr-3 pb-3" width="100%" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>Contact</h1>
+
+            <form id="contact-form">
+                <ul>
+                    <li>
+                        <label for="contactName">Name</label>
+                        <input type="text" id="contactName" name="contactName" placeholder="John Smith"
+                            required="required" />
+                    </li>
+
+                    <li>
+                        <label for="contactEmail">Email</label>
+                        <input type="email" id="contactEmail" name="contactEmail" placeholder="example@gmail.com"
+                            required="required" />
+                    </li>
+
+                    <li>
+                        <label for="contactMessage">Message</label>
+                        <textarea id="contactMessage" name="contactMessage" required="required"></textarea>
+                    </li>
+                </ul>
+
+                <input type="submit" name="Submit" />
+            </form>
+        </section>
+
+        <section class="sidebar">
+            <div id="connect">
+                <h2>Connect with Me</h2>
+
+                <a href="https://github.com/omarthayer" target="_blank">
+                </a>
+
+                <a href="linkedin.com/in/thayer-omar-5b926141" target="_blank">
+                </a>
+
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            &copy; Copyright 2020 Thayer Msimanga
+        </div>
+    </footer>
+
 </body>
+
 </html>
